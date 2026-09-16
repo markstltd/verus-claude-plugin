@@ -12,7 +12,7 @@ A Verus account. Sign in at [beta.markst.com](https://beta.markst.com). The firs
 
 ```bash
 claude plugin marketplace add markstltd/verus-claude-plugin
-claude plugin install verus
+claude plugin install verus@markst
 ```
 
 Or, without the plugin, add the server directly in any MCP client:

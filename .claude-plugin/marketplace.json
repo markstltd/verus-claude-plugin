@@ -1,0 +1,15 @@
+{
+  "name": "markst",
+  "owner": {
+    "name": "Markst Ltd",
+    "url": "https://markst.com"
+  },
+  "plugins": [
+    {
+      "name": "verus",
+      "source": "./",
+      "description": "Deterministic private-credit valuation over the Verus MCP server: deals, DCF and multi-factor pricing, stress scenarios, sensitivity ladders, comparables.",
+      "version": "1.0.0"
+    }
+  ]
+}
