@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "verus": {
+      "type": "http",
+      "url": "https://mcp.markst.com/"
+    }
+  }
+}
