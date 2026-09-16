@@ -1,5 +1,6 @@
 {
   "name": "markst",
+  "description": "Plugins from Markst Ltd for private-credit valuation on the Verus engine.",
   "owner": {
     "name": "Markst Ltd",
     "url": "https://markst.com"
