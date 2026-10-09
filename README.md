@@ -1,6 +1,6 @@
 # Verus by Markst — Claude plugin
 
-Price, stress and explain private-credit loans from Claude. The plugin connects Claude Code and Cowork to the Verus MCP server at `https://mcp.markst.com/` and adds a skill that tells Claude how to use the valuation tools well.
+Price, stress and explain private-credit loans from Claude. The plugin connects Claude to the Verus MCP server at `https://mcp.markst.com/` and adds a skill that tells Claude how to use the valuation tools well.
 
 Verus is the deterministic valuation engine behind [Markst](https://markst.com), an independent private-credit valuation firm. Same inputs always produce the same price. There is no machine-learning pricing and no randomness.
 
@@ -31,7 +31,7 @@ Or, without the plugin, add the server directly in any MCP client:
 | `find_comparables` | read | Comparable deals with implied spreads |
 | `portfolio_view` | read | Fund positions, NAV, concentrations |
 | `value_deal` | write | DCF price with low / mid / high range and credit metrics |
-| `multi_factor_price` | write | Factor-based rating, score and spread for direct lending, mezzanine, CRE and distressed |
+| `multi_factor_price` | write | Factor-based rating, score and spread for direct lending, mezzanine, CRE and distressed, from the factor inputs you supply. Refuses when a required input is missing; it never assumes a value |
 | `sensitivity_ladder` | write | Bump-and-reprice ladder on spread, hazard, recovery or rates |
 | `run_scenario` | write | Stressed valuations across the portfolio |
 | `create_deal_from_text` | write | Register a deal from a pasted term sheet or memo |
