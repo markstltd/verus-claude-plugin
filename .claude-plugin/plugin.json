@@ -1,15 +1,17 @@
 {
   "name": "verus",
   "displayName": "Verus by Markst",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Deterministic private-credit valuation from chat: list deals, run DCF and multi-factor pricing, stress portfolios, build sensitivity ladders and find comparables through the Verus MCP server.",
   "author": {
     "name": "Markst Ltd",
     "url": "https://markst.com"
   },
   "homepage": "https://markst.com",
+  "privacyPolicyUrl": "https://markst.com/legal/privacy",
   "repository": "https://github.com/markstltd/verus-claude-plugin",
   "license": "MIT",
+  "icon": "./assets/icon.png",
   "keywords": ["private-credit", "valuation", "direct-lending", "dcf", "credit", "finance", "mcp"],
   "mcpServers": "./.mcp.json",
   "skills": "./skills/"
